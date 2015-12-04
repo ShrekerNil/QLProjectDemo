@@ -20,6 +20,8 @@
 		142487401C112AA700592980 /* QLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1424873F1C112AA700592980 /* QLMineViewController.m */; };
 		1424874C1C112BAB00592980 /* QLHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1424874B1C112BAB00592980 /* QLHomeModel.m */; };
 		1424874F1C112BBB00592980 /* QLHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1424874E1C112BBB00592980 /* QLHomeView.m */; };
+		142487671C116DA900592980 /* QLXXXModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 142487631C116DA900592980 /* QLXXXModel.m */; };
+		142487681C116DA900592980 /* QLXXXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 142487661C116DA900592980 /* QLXXXView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,10 @@
 		1424874B1C112BAB00592980 /* QLHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHomeModel.m; sourceTree = "<group>"; };
 		1424874D1C112BBB00592980 /* QLHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLHomeView.h; sourceTree = "<group>"; };
 		1424874E1C112BBB00592980 /* QLHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHomeView.m; sourceTree = "<group>"; };
+		142487621C116DA900592980 /* QLXXXModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLXXXModel.h; sourceTree = "<group>"; };
+		142487631C116DA900592980 /* QLXXXModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLXXXModel.m; sourceTree = "<group>"; };
+		142487651C116DA900592980 /* QLXXXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLXXXView.h; sourceTree = "<group>"; };
+		142487661C116DA900592980 /* QLXXXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLXXXView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +160,8 @@
 				142487151C11295A00592980 /* AppDelegate.m */,
 				142487171C11296D00592980 /* ViewController.h */,
 				142487181C11296D00592980 /* ViewController.m */,
-				142487501C1137C300592980 /* QLCommonModel */,
+				142487611C116DA900592980 /* QLCommonModel */,
+				142487641C116DA900592980 /* QLCommonView */,
 			);
 			path = QLMain;
 			sourceTree = "<group>";
@@ -363,11 +370,22 @@
 			path = QLCategories;
 			sourceTree = "<group>";
 		};
-		142487501C1137C300592980 /* QLCommonModel */ = {
+		142487611C116DA900592980 /* QLCommonModel */ = {
 			isa = PBXGroup;
 			children = (
+				142487621C116DA900592980 /* QLXXXModel.h */,
+				142487631C116DA900592980 /* QLXXXModel.m */,
 			);
-			name = QLCommonModel;
+			path = QLCommonModel;
+			sourceTree = "<group>";
+		};
+		142487641C116DA900592980 /* QLCommonView */ = {
+			isa = PBXGroup;
+			children = (
+				142487651C116DA900592980 /* QLXXXView.h */,
+				142487661C116DA900592980 /* QLXXXView.m */,
+			);
+			path = QLCommonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142487671C116DA900592980 /* QLXXXModel.m in Sources */,
 				142487191C11296D00592980 /* ViewController.m in Sources */,
 				1424873A1C112A7F00592980 /* QLAddViewController.m in Sources */,
 				142487161C11295A00592980 /* AppDelegate.m in Sources */,
@@ -451,6 +470,7 @@
 				142486F31C111C8D00592980 /* main.m in Sources */,
 				142487371C112A7400592980 /* QLMessageViewController.m in Sources */,
 				142487401C112AA700592980 /* QLMineViewController.m in Sources */,
+				142487681C116DA900592980 /* QLXXXView.m in Sources */,
 				1424873D1C112A9100592980 /* QLDiscoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,6 +620,7 @@
 				142487071C111C8D00592980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
