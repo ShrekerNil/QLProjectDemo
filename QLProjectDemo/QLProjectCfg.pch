@@ -1,0 +1,24 @@
+//
+//  QLProjectCfg.pch
+//  QLProjectDemo
+//
+//  Created by Shrek on 16/3/7.
+//  Copyright © 2016年 Shreker. All rights reserved.
+//
+
+#ifndef QLProjectCfg_pch
+#define QLProjectCfg_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/** QLDEBUG Print | M:method, L:line, C:content*/
+#ifndef QLLog
+#ifdef DEBUG
+#define QLLog(FORMAT, ...) fprintf(stderr,"M:%s|L:%d|C->%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define QLLog(FORMAT, ...)
+#endif
+#endif
+
+#endif /* QLProjectCfg_pch */

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  QLCommonView.h
 //  QLProjectDemo
 //
 //  Created by Shrek on 15/12/4.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface QLCommonView : UIView
 
 @end
-

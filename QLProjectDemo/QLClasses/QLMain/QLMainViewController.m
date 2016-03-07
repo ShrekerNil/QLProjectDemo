@@ -1,20 +1,20 @@
 //
-//  QLMineViewController.m
+//  QLMainViewController.m
 //  QLProjectDemo
 //
 //  Created by Shrek on 15/12/4.
 //  Copyright © 2015年 Shreker. All rights reserved.
 //
 
-#import "QLMineViewController.h"
+#import "QLMainViewController.h"
 
-@interface QLMineViewController ()
+@interface QLMainViewController ()
 
 @end
 
-@implementation QLMineViewController
+@implementation QLMainViewController
 
-#pragma mark - Life Circle
+#pragma mark - LifeCycle Methods
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadDefaultSetting];
@@ -27,7 +27,7 @@
 
 - (void)dealloc {
     // RELEASE OBJECTS TO FREE THE MEMORIES HERE!
-    QLLog(@"🌜A instance of type %s was DESTROYED!🌛", __FUNCTION__);
+    QLLog(@"🌜A instance of type [%s] was DESTROYED!🌛", __FUNCTION__);
 }
 
 @end

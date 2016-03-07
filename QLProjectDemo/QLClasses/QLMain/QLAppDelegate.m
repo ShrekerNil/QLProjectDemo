@@ -6,13 +6,13 @@
 //  Copyright © 2015年 Shreker. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "QLAppDelegate.h"
 
-@interface AppDelegate ()
+@interface QLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation QLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

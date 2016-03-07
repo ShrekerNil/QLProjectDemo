@@ -1,14 +1,14 @@
 //
-//  QLXXXView.m
+//  QLCommonView.m
 //  QLProjectDemo
 //
 //  Created by Shrek on 15/12/4.
 //  Copyright © 2015年 Shreker. All rights reserved.
 //
 
-#import "QLXXXView.h"
+#import "QLCommonView.h"
 
-@implementation QLXXXView
+@implementation QLCommonView
 
 /*
 // Only override drawRect: if you perform custom drawing.

@@ -1,13 +1,13 @@
 //
-//  QLXXXModel.m
+//  QLCommonModel.h
 //  QLProjectDemo
 //
 //  Created by Shrek on 15/12/4.
 //  Copyright © 2015年 Shreker. All rights reserved.
 //
 
-#import "QLXXXModel.h"
+#import <Foundation/Foundation.h>
 
-@implementation QLXXXModel
+@interface QLCommonModel : NSObject
 
 @end

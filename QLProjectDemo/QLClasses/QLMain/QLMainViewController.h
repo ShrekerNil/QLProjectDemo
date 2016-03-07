@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QLMainViewController.h
 //  QLProjectDemo
 //
 //  Created by Shrek on 15/12/4.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface QLMainViewController : UIViewController
 
 
 @end

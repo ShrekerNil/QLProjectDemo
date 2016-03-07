@@ -1,5 +1,5 @@
 //
-//  QLAddViewController.h
+//  AppDelegate.h
 //  QLProjectDemo
 //
 //  Created by Shrek on 15/12/4.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QLAddViewController : UIViewController
+@interface QLAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
+
