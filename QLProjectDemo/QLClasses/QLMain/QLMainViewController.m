@@ -14,7 +14,7 @@
 
 @implementation QLMainViewController
 
-#pragma mark - LifeCycle Methods
+#pragma mark - Life Circle
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadDefaultSetting];
@@ -27,7 +27,8 @@
 
 - (void)dealloc {
     // RELEASE OBJECTS TO FREE THE MEMORIES HERE!
-    QLLog(@"🌜A instance of type [%s] was DESTROYED!🌛", __FUNCTION__);
+    __unsafe_unretained typeof(self) selfUnsafe = self;
+    QLLog(@"🌜A instance of type %@ was DESTROYED!🌛", NSStringFromClass([selfUnsafe class]));
 }
 
 @end
