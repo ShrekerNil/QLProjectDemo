@@ -22,7 +22,8 @@
 
 /** Load the default UI elements And prepare some datas needed. */
 - (void)loadDefaultSetting {
-    
+    self.title = @"home";
+    self.view.backgroundColor = QLColorRandom;
 }
 
 - (void)dealloc {

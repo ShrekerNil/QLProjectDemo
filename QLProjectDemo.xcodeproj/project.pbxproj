@@ -16,6 +16,7 @@
 		1424874C1C112BAB00592980 /* QLHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1424874B1C112BAB00592980 /* QLHomeModel.m */; };
 		1424874F1C112BBB00592980 /* QLHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1424874E1C112BBB00592980 /* QLHomeView.m */; };
 		143D15C71C8D6BAD009F79B0 /* QLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143D15C61C8D6BAD009F79B0 /* QLNavigationController.m */; };
+		143D15C91C8D7C7F009F79B0 /* controllers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 143D15C81C8D7C7F009F79B0 /* controllers.plist */; };
 		14D702531C8D614C00EE8AA9 /* QLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D7024A1C8D614C00EE8AA9 /* QLAppDelegate.m */; };
 		14D702541C8D614C00EE8AA9 /* QLCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D7024D1C8D614C00EE8AA9 /* QLCommonModel.m */; };
 		14D702551C8D614C00EE8AA9 /* QLCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D702501C8D614C00EE8AA9 /* QLCommonView.m */; };
@@ -39,6 +40,7 @@
 		1424874E1C112BBB00592980 /* QLHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHomeView.m; sourceTree = "<group>"; };
 		143D15C51C8D6BAD009F79B0 /* QLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLNavigationController.h; sourceTree = "<group>"; };
 		143D15C61C8D6BAD009F79B0 /* QLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLNavigationController.m; sourceTree = "<group>"; };
+		143D15C81C8D7C7F009F79B0 /* controllers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = controllers.plist; path = QLPlists/controllers.plist; sourceTree = SOURCE_ROOT; };
 		14D702491C8D614C00EE8AA9 /* QLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLAppDelegate.h; sourceTree = "<group>"; };
 		14D7024A1C8D614C00EE8AA9 /* QLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLAppDelegate.m; sourceTree = "<group>"; };
 		14D7024C1C8D614C00EE8AA9 /* QLCommonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCommonModel.h; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		142487471C112B5300592980 /* QLPlists */ = {
 			isa = PBXGroup;
 			children = (
+				143D15C81C8D7C7F009F79B0 /* controllers.plist */,
 			);
 			path = QLPlists;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			files = (
 				142487011C111C8D00592980 /* LaunchScreen.storyboard in Resources */,
 				142486FE1C111C8D00592980 /* Assets.xcassets in Resources */,
+				143D15C91C8D7C7F009F79B0 /* controllers.plist in Resources */,
 				142486FC1C111C8D00592980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

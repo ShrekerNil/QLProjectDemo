@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QLMainViewController : UIViewController
-
+@interface QLMainViewController : UITabBarController
 
 @end
 

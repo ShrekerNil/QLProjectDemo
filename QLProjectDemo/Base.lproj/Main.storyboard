@@ -16,21 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SgO-iC-eHf">
-                                <rect key="frame" x="276" y="284" width="51" height="31"/>
-                            </switch>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Vab-6p-9qt">
-                                <rect key="frame" x="254" y="344" width="94" height="29"/>
-                            </stepper>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="SgO-iC-eHf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3ix-4e-AJt"/>
-                            <constraint firstItem="Vab-6p-9qt" firstAttribute="centerX" secondItem="SgO-iC-eHf" secondAttribute="centerX" id="7Tx-qP-6nv"/>
-                            <constraint firstItem="SgO-iC-eHf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="njh-vK-2hr"/>
-                            <constraint firstItem="Vab-6p-9qt" firstAttribute="top" secondItem="SgO-iC-eHf" secondAttribute="bottom" constant="29" id="q4t-ya-clb"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SIW-QJ-IdW"/>
                 </viewController>

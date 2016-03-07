@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>controller</key>
+		<string>QLHomeViewController</string>
+		<key>tab_icon</key>
+		<string></string>
+		<key>tab_icon_sl</key>
+		<string></string>
+		<key>title</key>
+		<string>Home</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>QLMineViewController</string>
+		<key>tab_icon</key>
+		<string></string>
+		<key>tab_icon_sl</key>
+		<string></string>
+		<key>title</key>
+		<string>Mine</string>
+	</dict>
+</array>
+</plist>
