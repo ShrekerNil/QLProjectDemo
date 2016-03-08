@@ -42,7 +42,7 @@
     [self syncNavgationItemsFromViewController:viewController];
 }
 
-/** 同步TabBar的NavigationItem */
+/** Sync TabBar's NavigationItem */
 - (void)syncNavgationItemsFromViewController:(UIViewController *)viewController {
     self.navigationItem.leftBarButtonItem = viewController.navigationItem.leftBarButtonItem;
     self.navigationItem.leftBarButtonItems = viewController.navigationItem.leftBarButtonItems;
