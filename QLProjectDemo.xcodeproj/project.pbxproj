@@ -16,11 +16,11 @@
 		1424874C1C112BAB00592980 /* QLHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1424874B1C112BAB00592980 /* QLHomeModel.m */; };
 		1424874F1C112BBB00592980 /* QLHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1424874E1C112BBB00592980 /* QLHomeView.m */; };
 		143D15C71C8D6BAD009F79B0 /* QLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143D15C61C8D6BAD009F79B0 /* QLNavigationController.m */; };
-		143D15C91C8D7C7F009F79B0 /* controllers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 143D15C81C8D7C7F009F79B0 /* controllers.plist */; };
 		14D702531C8D614C00EE8AA9 /* QLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D7024A1C8D614C00EE8AA9 /* QLAppDelegate.m */; };
 		14D702541C8D614C00EE8AA9 /* QLCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D7024D1C8D614C00EE8AA9 /* QLCommonModel.m */; };
 		14D702551C8D614C00EE8AA9 /* QLCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D702501C8D614C00EE8AA9 /* QLCommonView.m */; };
 		14D702561C8D614C00EE8AA9 /* QLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D702521C8D614C00EE8AA9 /* QLMainViewController.m */; };
+		14E81A4B1C9261C1004135A7 /* controllers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E81A491C9261C1004135A7 /* controllers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,6 @@
 		1424874E1C112BBB00592980 /* QLHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHomeView.m; sourceTree = "<group>"; };
 		143D15C51C8D6BAD009F79B0 /* QLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLNavigationController.h; sourceTree = "<group>"; };
 		143D15C61C8D6BAD009F79B0 /* QLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLNavigationController.m; sourceTree = "<group>"; };
-		143D15C81C8D7C7F009F79B0 /* controllers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = controllers.plist; path = QLPlists/controllers.plist; sourceTree = SOURCE_ROOT; };
 		14D702491C8D614C00EE8AA9 /* QLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLAppDelegate.h; sourceTree = "<group>"; };
 		14D7024A1C8D614C00EE8AA9 /* QLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLAppDelegate.m; sourceTree = "<group>"; };
 		14D7024C1C8D614C00EE8AA9 /* QLCommonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCommonModel.h; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		14D702511C8D614C00EE8AA9 /* QLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLMainViewController.h; sourceTree = "<group>"; };
 		14D702521C8D614C00EE8AA9 /* QLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLMainViewController.m; sourceTree = "<group>"; };
 		14D702571C8D64ED00EE8AA9 /* QLProjectCfg.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLProjectCfg.pch; sourceTree = "<group>"; };
+		14E81A491C9261C1004135A7 /* controllers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = controllers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				142487081C1121A200592980 /* QLClasses */,
-				1424870D1C1121A200592980 /* QLResources */,
+				14E81A451C9261C1004135A7 /* QLResources */,
 				142486F11C111C8D00592980 /* Supporting Files */,
 			);
 			path = QLProjectDemo;
@@ -135,17 +135,6 @@
 			children = (
 			);
 			path = QLTools;
-			sourceTree = "<group>";
-		};
-		1424870D1C1121A200592980 /* QLResources */ = {
-			isa = PBXGroup;
-			children = (
-				142487451C112B5300592980 /* QLAudios */,
-				142487461C112B5300592980 /* QLImages */,
-				142487471C112B5300592980 /* QLPlists */,
-				142487481C112B5300592980 /* QLVedios */,
-			);
-			path = QLResources;
 			sourceTree = "<group>";
 		};
 		1424870F1C11289900592980 /* ItemHome */ = {
@@ -218,35 +207,6 @@
 			path = QLView;
 			sourceTree = "<group>";
 		};
-		142487451C112B5300592980 /* QLAudios */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = QLAudios;
-			sourceTree = "<group>";
-		};
-		142487461C112B5300592980 /* QLImages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = QLImages;
-			sourceTree = "<group>";
-		};
-		142487471C112B5300592980 /* QLPlists */ = {
-			isa = PBXGroup;
-			children = (
-				143D15C81C8D7C7F009F79B0 /* controllers.plist */,
-			);
-			path = QLPlists;
-			sourceTree = "<group>";
-		};
-		142487481C112B5300592980 /* QLVedios */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = QLVedios;
-			sourceTree = "<group>";
-		};
 		142487491C112B7500592980 /* QLCategories */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +245,46 @@
 				14D702501C8D614C00EE8AA9 /* QLCommonView.m */,
 			);
 			path = QLCommonView;
+			sourceTree = "<group>";
+		};
+		14E81A451C9261C1004135A7 /* QLResources */ = {
+			isa = PBXGroup;
+			children = (
+				14E81A461C9261C1004135A7 /* QLAudios */,
+				14E81A471C9261C1004135A7 /* QLImages */,
+				14E81A481C9261C1004135A7 /* QLPlists */,
+				14E81A4A1C9261C1004135A7 /* QLVedios */,
+			);
+			path = QLResources;
+			sourceTree = "<group>";
+		};
+		14E81A461C9261C1004135A7 /* QLAudios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QLAudios;
+			sourceTree = "<group>";
+		};
+		14E81A471C9261C1004135A7 /* QLImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QLImages;
+			sourceTree = "<group>";
+		};
+		14E81A481C9261C1004135A7 /* QLPlists */ = {
+			isa = PBXGroup;
+			children = (
+				14E81A491C9261C1004135A7 /* controllers.plist */,
+			);
+			path = QLPlists;
+			sourceTree = "<group>";
+		};
+		14E81A4A1C9261C1004135A7 /* QLVedios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QLVedios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,7 +348,7 @@
 			files = (
 				142487011C111C8D00592980 /* LaunchScreen.storyboard in Resources */,
 				142486FE1C111C8D00592980 /* Assets.xcassets in Resources */,
-				143D15C91C8D7C7F009F79B0 /* controllers.plist in Resources */,
+				14E81A4B1C9261C1004135A7 /* controllers.plist in Resources */,
 				142486FC1C111C8D00592980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
