@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:QLProjectDemo.xcodeproj">
+      location = "self:/Users/Shrek/Shrek/Github/QLProjectDemo/QLProjectDemo.xcodeproj">
    </FileRef>
 </Workspace>
